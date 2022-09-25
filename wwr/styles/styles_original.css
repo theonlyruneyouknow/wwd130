@@ -1,0 +1,19 @@
+img {
+    width: 30%;
+}
+p {
+    width: 50%;
+}
+a {
+    font-size: 1.5em;
+}
+* {
+    border: 2px solid blue;
+}
+/*body {
+    text-align: center;
+}
+*/
+h1, nav, body, main, .stext {
+    text-align: center;
+}
