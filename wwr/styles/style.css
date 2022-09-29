@@ -12,18 +12,57 @@
     background-color: green;   
     color : red;
 }
+
+:root {
+    --heading-font: Niconne;
+    --paragraph-font: Quintessential, Helvetica, sans-serif;
+  
+}
 */
- div , #content {
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Niconne:ital,wght@0,400;0,700;1,400&display=swap');
+
+.home-title {
+    font-family: Niconne;
+    font-size: 2em;
+    color : red;
+    margin-top: 10px;
+    }
+
+
+
+/*#logo_link*/
+.logo  {
+    width: 80px;
+    padding-top: 5px;
+}
+
+.msg p {
+    font-size: .8em;
+    color : red;
+    padding-bottom: 15px;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Niconne;
+    color: var(--headline-color-on-white);
+  }
+div , #content {
     max-width: 1600px;
     margin: 0 auto;
     /*margin-right: 0 auto;*/
 }
 
 
-
 nav a { 
     text-align: center;
     text-decoration: none;
+    color : red;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: green;
     color : red;
 }
 #hero-msg h1, #hero-msg h4 { 
@@ -36,11 +75,26 @@ main section, .home-grid, .rivers-card, .camping-card, .rapids-card
 { 
     text-align: center;
 }
-.icon, .logo {
+
+main section img{
+    box-sizing: border-box;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+    border-color: 10px solid black; 
+}
+.icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+    
+    border: 10px;
+    border-color: 10px solid black; 
+}
+.card-image , .hero{
+    border: 10px solid black;
 }
 
 #background {
@@ -51,16 +105,30 @@ body
 header {
     background-color: rgba(0,128,0,.3);
     color : red;
+    margin: 0;
+    padding: 0;
 }
-nav a:hover {
-    background-color: green;
-    color : red;
+
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 .book, .join {
     background-color: green;
     color : red;
     text-decoration: none;
+    font-size : 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius : 5px;
 }
+
 .book:hover, .join:hover {
     background-color: green;
     color : red;
@@ -69,37 +137,43 @@ nav a:hover {
     background-color: green;
     color : red;
 }
-.msg {
-    background-color: green;
-    color : red;
+
+footer .social img{
+    padding-top: 15px;
 }
-footer{
+
+footer {
     background-color: green;
     color : red;
     text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
-    text-size: 1.2em;
+    font-size: 1.2em;
 }    
 footer p a:hover {
     text-decoration: underline;
 }               
  
-.home-title {
-    color : red;
-}
+
 
 h4 {
     color : red;
+}
+
+.msg {
+    background-color: green;
+    color : red;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
     color : red;
 }
 
-.msg p {
-    color : red;
-}
+
 
 footer h3 {
     color : red;
