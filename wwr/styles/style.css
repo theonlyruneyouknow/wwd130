@@ -79,7 +79,6 @@ main section img{
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
-    border-color: 10px solid black; 
 }
 .icon {
     width: 80px;
@@ -89,7 +88,6 @@ main section img{
     width: 100%;
     
     border: 10px;
-    border-color: 10px solid black; 
 }
 .card-image , .hero{
     border: 10px solid black;
