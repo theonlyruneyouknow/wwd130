@@ -1,3 +1,25 @@
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr;
+    grid-template-rows: repeat(3, 1fr) 3fr;
+    grid-column-gap: 9px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 7; }
+    .div2 { grid-area: 2 / 1 / 3 / 7; 
+        display: block;
+        margin: 0 auto;}
+    .div3 { grid-area: 3 / 1 / 4 / 2; }
+    .div4 { grid-area: 3 / 2 / 4 / 3; }
+    .div5 { grid-area: 4 / 2 / 5 / 3; }
+    .div6 { grid-area: 3 / 3 / 4 / 4; }
+    .div7 { grid-area: 3 / 4 / 4 / 5; }
+    .div8 { grid-area: 4 / 4 / 5 / 5; }
+    .div9 { grid-area: 3 / 5 / 4 / 6; }
+    .div10 { grid-area: 3 / 6 / 4 / 7; }
+    .div11 { grid-area: 4 / 6 / 5 / 7; }
+     
 
 nav {
 
@@ -5,11 +27,28 @@ nav {
     justify-content: space-around;
 }
 
+.image {
+
+    margin: auto;
+}
+
 #logo_link  {
     width: 80px;
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+    
+    text-align: center;
+}
+
+
+#logo_link2  {
+    width: 400px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    margin: auto;
+    text-align: center;
 }
 
 #hero {
@@ -115,8 +154,18 @@ nav {
     font-size: 2em;
     color : red;
     margin-top: 10px;
+    
+    text-align: center;
     }
-
+    .home-title2 {
+        font-family: Niconne;
+        font-size: 2em;
+        color : rgb(54, 83, 211);
+        margin-top: 10px;
+        
+    text-align: center;
+        }
+    
 
 
 /*#logo_link*/
