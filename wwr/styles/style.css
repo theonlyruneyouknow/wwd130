@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Niconne;
     color: var(--headline-color-on-white);
   }
-div , #content {
+ #content {
     max-width: 1600px;
     margin: 0 auto;
     /*margin-right: 0 auto;*/
